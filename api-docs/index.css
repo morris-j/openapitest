@@ -18,6 +18,7 @@ body {
 .swagger-ui .topbar svg:not(:root) {
     display: none;
 }
-.topbar-wrapper .link:before {
-    content: url('kochava_horizontal.png');
-}
+/* Can enable this to get a logo at the top, need to sort out current branding. */
+/*.topbar-wrapper .link:before {*/
+/*    content: url('kochava_horizontal.png');*/
+/*}*/
