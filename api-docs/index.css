@@ -14,3 +14,10 @@ body {
     margin: 0;
     background: #fafafa;
 }
+
+.swagger-ui .topbar svg:not(:root) {
+    display: none;
+}
+.topbar-wrapper .link:before {
+    content: url('kochava_horizontal.png');
+}

@@ -1,15 +1,15 @@
 window.onload = function() {
   //<editor-fold desc="Changeable Configuration Block">
 
-  const LogoPlugin = () => {
-          return {
-            components: {
-                Logo: () => (
-                    <img alt="My Logo" height="40" src="kochava_horizontal.png"/>
-                  )
-            }
-          }
-        }
+//  const LogoPlugin = () => {
+//          return {
+//            components: {
+//                Logo: () => (
+//                    <img alt="My Logo" height="40" src="kochava_horizontal.png"/>
+//                  )
+//            }
+//          }
+//        }
 
   // the following lines will be replaced by docker/configurator, when it runs in a docker-container
   window.ui = SwaggerUIBundle({
@@ -35,8 +35,8 @@ window.onload = function() {
       SwaggerUIStandalonePreset
     ],
     plugins: [
-      SwaggerUIBundle.plugins.DownloadUrl,
-      LogoPlugin
+      SwaggerUIBundle.plugins.DownloadUrl
+//      LogoPlugin
     ],
     layout: "StandaloneLayout"
   });
